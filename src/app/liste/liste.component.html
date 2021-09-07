@@ -1,0 +1,8 @@
+<ol>
+    <app-item *ngFor="let p of tabPersonne" (msgToListe)="RecupPersonneFromItem($event)" [onePersonne]="p">
+    </app-item>
+    <!-- <app-item (msgToListe)="RecupPersonneFromItem($event)" [onePersonne]="tabPersonne[1]"></app-item>
+    <app-item (msgToListe)="RecupPersonneFromItem($event)" [onePersonne]="tabPersonne[2]"></app-item> -->
+</ol>
+
+<!-- <button class="btn btn-warning" (click)="listFromList()">List From Liste</button> -->
